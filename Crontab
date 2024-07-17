@@ -1,3 +1,5 @@
 0 3 * * 0 /home/almalinux/cert.sh >> /home/almalinux/log.txt 2>&1
-
 El script se ejecuta todos los domingos a las 3AM.
+
+mkdir /home/almalinux
+chmod 755 /home/almalinux
